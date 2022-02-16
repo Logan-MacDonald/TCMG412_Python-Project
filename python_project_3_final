@@ -60,5 +60,6 @@ May_1995 = data.count("May/1995")
 #simple addition to get the total number of requests in the log file for the requested months.
 monthly_total_log_entry = Oct_1995+Sep_1995+Aug_1995+Jul_1995+Jun_1995+May_1995
 #last_6_months = occurrences1 + occurrences2
-print('The total number of requests during the last 6 months of this log file are:', monthly_total_log_entry)
-print('The total number of requests contained within this log are:', line_count)
+#print('The total number of requests during the last 6 months of this log file are:', monthly_total_log_entry)
+#print('The total number of requests contained within this log are:', line_count)
+print('The total number of requests to the website were,', line_count, 'and the number of request made in the last six monthe were,', monthly_total_log_entry, ",Thanks and Gig'Em")
